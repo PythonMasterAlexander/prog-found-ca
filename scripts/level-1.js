@@ -42,6 +42,13 @@ for (var i = 0; i < arrayOfFiveNumbers.length; i++) {
 
 //Question 5  
 for (var i = 15; i <= 25; i++) {
+  var loopOutput = "Counter Variable : " + i;
+
+  console.log(loopOutput);
+}
+
+//Or
+for (var i = 15; i <= 25; i++) {
   console.log("Counter Variable : " + i);
 }
 
